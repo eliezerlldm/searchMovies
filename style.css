@@ -1,0 +1,126 @@
+.app{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: white;
+}
+#searchContainer{
+  max-width: 100%;
+  margin: 1vw;
+  #searchInput{
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(98, 63, 63);
+  }
+}
+
+#listContainer{
+  width: 37vw;
+  #listItems{
+    max-width: 10%;
+    margin: 1vw;
+    width: 31vh;
+    list-style: none;
+    padding: 0;
+    .movie{
+      columns: 2;
+      img{
+        width: 5vw;
+        height: 15vh;
+        cursor: pointer;
+      }
+      h1{
+        position: relative;
+        width: 30vw;
+        font-weight: bold;
+        font-size: 1vw;
+        margin-left: 4vw
+      }
+      h2{
+        width: 30vw;
+        font-weight: bold;
+        font-size: 1vw;
+        margin-left: 4vw
+      }
+    }
+  }
+}
+#detailContainer{
+  position: absolute;
+  top: 15vh;
+  left: 38vw;
+  width: 51vw;
+  height: 100%;
+  /*background-color: ghostwhite;*/
+  columns: 2;
+  h1{
+    margin-left: -7vw;
+    font-weight: bold;
+    padding-top: 5vh;
+  }
+  div{
+    margin-left: -7vw;
+    font-weight: normal;
+    font-size: 1vw;
+    padding-top: 4vh;
+  }
+
+  #ddInput{
+    padding-top: 4vh;
+  }
+  .button-add {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2vh;
+  }
+  .button-add:hover {
+    background-color: #45a049;
+  }
+  
+  .button-add:active {
+    background-color: #3e8e41;
+  }
+}
+.list-container{
+  position: absolute;
+    width: 51vw;
+    height: 100%;
+    margin-left: 38vw;
+    margin-top: 97vh;
+}
+.fav-container{
+    background-color: #51c956;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    img{
+      position: relative;
+      width: 1vw;
+      height: 3vh;
+      padding-top: 2.5vh;
+      left: -2vw;
+      cursor: pointer;
+      
+    }
+    label{
+      /*width: 30vw;*/
+      font-weight: bold;
+      font-size: 2vw;
+      margin-left: 2vw;
+
+    }
+
+}
+
